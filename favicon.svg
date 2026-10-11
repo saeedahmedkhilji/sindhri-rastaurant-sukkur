@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldIconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2A3" />
+      <stop offset="30%" stop-color="#E5BA53" />
+      <stop offset="60%" stop-color="#C59330" />
+      <stop offset="100%" stop-color="#9E6D18" />
+    </linearGradient>
+    <filter id="iconGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <g transform="translate(60, 60)">
+    <!-- Dark Background Medallion -->
+    <circle r="56" fill="#0C0F14" stroke="url(#goldIconGrad)" stroke-width="2.5" />
+    <circle r="51" fill="none" stroke="url(#goldIconGrad)" stroke-width="1.2" stroke-dasharray="2,2" opacity="0.7"/>
+
+    <!-- Laurel Wreath (Left side) -->
+    <g fill="url(#goldIconGrad)">
+      <path d="M-15,36 C-29,27 -38,10 -37,-10 C-36,-27 -27,-39 -12,-45 C-13,-42 -13,-39 -12,-36 C-25,-30 -32,-19 -33,-5 C-34,12 -26,26 -14,34 Z" opacity="0.4"/>
+      <path d="M-14,34 C-21,34 -28,29 -28,23 C-28,18 -22,20 -15,26 Z"/>
+      <path d="M-21,23 C-29,22 -35,14 -34,8 C-34,3 -27,7 -21,15 Z"/>
+      <path d="M-28,10 C-36,6 -40,-2 -38,-8 C-37,-13 -31,-8 -26,-1 Z"/>
+      <path d="M-30,-5 C-38,-11 -39,-22 -34,-27 C-32,-29 -27,-24 -25,-16 Z"/>
+      <path d="M-27,-20 C-33,-27 -30,-37 -24,-40 C-21,-41 -20,-35 -21,-27 Z"/>
+      <path d="M-17,-33 C-21,-40 -16,-47 -9,-48 C-7,-49 -7,-43 -11,-36 Z"/>
+    </g>
+
+    <!-- Laurel Wreath (Right side) -->
+    <g fill="url(#goldIconGrad)" transform="scale(-1, 1)">
+      <path d="M-15,36 C-29,27 -38,10 -37,-10 C-36,-27 -27,-39 -12,-45 C-13,-42 -13,-39 -12,-36 C-25,-30 -32,-19 -33,-5 C-34,12 -26,26 -14,34 Z" opacity="0.4"/>
+      <path d="M-14,34 C-21,34 -28,29 -28,23 C-28,18 -22,20 -15,26 Z"/>
+      <path d="M-21,23 C-29,22 -35,14 -34,8 C-34,3 -27,7 -21,15 Z"/>
+      <path d="M-28,10 C-36,6 -40,-2 -38,-8 C-37,-13 -31,-8 -26,-1 Z"/>
+      <path d="M-30,-5 C-38,-11 -39,-22 -34,-27 C-32,-29 -27,-24 -25,-16 Z"/>
+      <path d="M-27,-20 C-33,-27 -30,-37 -24,-40 C-21,-41 -20,-35 -21,-27 Z"/>
+      <path d="M-17,-33 C-21,-40 -16,-47 -9,-48 C-7,-49 -7,-43 -11,-36 Z"/>
+    </g>
+
+    <!-- Center Inner Ring -->
+    <circle r="36" fill="none" stroke="url(#goldIconGrad)" stroke-width="1.5" opacity="0.9" />
+
+    <!-- Stylized Monogram S -->
+    <path d="M10,-21 C9,-25 4,-28 -4,-28 C-14,-28 -20,-22 -20,-15 C-20,-7 -14,-4 -3,0 C12,4 20,10 20,20 C20,30 10,35 -4,35 C-14,35 -21,30 -24,24 L-16,19 C-15,23 -10,26 -4,26 C5,26 11,22 11,16 C11,10 5,6 -6,2 C-16,-2 -24,-8 -24,-18 C-24,-27 -15,-34 -1,-34 C9,-34 15,-29 17,-24 Z"
+          fill="url(#goldIconGrad)" filter="url(#iconGlow)"/>
+
+    <!-- Small Crown / Star at Bottom -->
+    <path d="M0,40 L3,44 L7,44 L4,46 L5,50 L0,48 L-5,50 L-4,46 L-7,44 L-3,44 Z" fill="url(#goldIconGrad)"/>
+  </g>
+</svg>

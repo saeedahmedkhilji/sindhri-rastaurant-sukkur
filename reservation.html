@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIP Table Reservation | Sindhri Restaurant Sukkur</title>
+    <meta name="description" content="Reserve VIP tables and family halls at Sindhri Restaurant Sukkur. Outdoor Ajrak patio dining, executive AC halls, and private family arrangements.">
+    
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <!-- SITE HEADER -->
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="index.html" class="brand-link" title="Sindhri Restaurant Sukkur">
+                <img src="assets/brand/sindhri-logo-gold.jpg" alt="Sindhri Restaurant Logo" class="brand-emblem-img">
+                <div class="brand-text-block">
+                    <span class="brand-title">SINDHRI RESTAURANT</span>
+                    <span class="brand-subtitle">SUKKUR • EST. 1985</span>
+                </div>
+            </a>
+
+            <nav>
+                <ul class="primary-nav" id="primaryNav">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="menu.html" class="nav-link">Digital Menu</a></li>
+                    <li><a href="reservation.html" class="nav-link active">Book a Table</a></li>
+                    <li><a href="gallery.html" class="nav-link">Modern Ambience</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact & Owner</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="tel:03121786110" class="header-phone-btn" title="Call Owner">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    <span>03121786110</span>
+                </a>
+
+                <button type="button" class="cart-icon-btn trigger-open-cart" aria-label="Open Cart">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+                    <span class="cart-count-badge">0</span>
+                </button>
+
+                <button type="button" class="mobile-toggle-btn" id="mobileMenuToggle" aria-label="Toggle navigation">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- PAGE HERO BANNER -->
+    <section style="padding: 130px 0 50px; background: radial-gradient(circle at 50% 20%, rgba(212, 175, 55, 0.12) 0%, rgba(8, 10, 15, 0.98) 80%); text-align: center; border-bottom: 1px solid var(--gold-border);">
+        <div class="container">
+            <span class="section-tag">Royal Sindhi Hospitality</span>
+            <h1 style="font-size: clamp(2.2rem, 4.5vw, 3.4rem); margin-bottom: 14px; color: var(--gold-bright);">
+                VIP TABLE & HALL RESERVATION
+            </h1>
+            <p style="color: var(--text-secondary); max-width: 650px; margin: 0 auto 20px; font-size: 1.05rem;">
+                Whether you desire our illuminated open-air Ajrak patio, a family private hall, or an executive AC lounge, book seamlessly with instant WhatsApp confirmation.
+            </p>
+        </div>
+    </section>
+
+    <!-- RESERVATION INTERFACE -->
+    <section class="section">
+        <div class="container">
+            
+            <div style="display: grid; grid-template-columns: 1fr 1.3fr; gap: 40px; align-items: flex-start;">
+                
+                <!-- Left: Ambience Overview & Owner Card -->
+                <div>
+                    <h2 style="font-size: 1.8rem; color: var(--gold-light); margin-bottom: 16px;">Seating Environments</h2>
+                    <p style="color: var(--text-secondary); line-height: 1.7; margin-bottom: 24px;">
+                        Sindhri Restaurant Sukkur offers multiple dining environments tailored for families, couples, and large celebratory gatherings:
+                    </p>
+
+                    <div style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 30px;">
+                        <div style="background: var(--bg-dark-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 18px;">
+                            <h4 style="color: var(--gold-bright); margin-bottom: 4px;">🏮 Outdoor Ajrak Patio</h4>
+                            <p style="font-size: 0.88rem; color: var(--text-secondary);">Traditional Sindhi charpais with embroidered Ajrak cushions, festoon lighting, and the fresh evening Indus breeze.</p>
+                        </div>
+
+                        <div style="background: var(--bg-dark-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 18px;">
+                            <h4 style="color: var(--gold-bright); margin-bottom: 4px;">🏛 Executive AC Family Hall</h4>
+                            <p style="font-size: 0.88rem; color: var(--text-secondary);">Climate-controlled modern dining with private family partitions, comfortable banquet chairs, and royal decor.</p>
+                        </div>
+
+                        <div style="background: var(--bg-dark-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 18px;">
+                            <h4 style="color: var(--gold-bright); margin-bottom: 4px;">🔥 Charcoal BBQ Terrace</h4>
+                            <p style="font-size: 0.88rem; color: var(--text-secondary);">Right next to our master grill station. Experience the aromas and live cooking of sizzling skewers and handis.</p>
+                        </div>
+                    </div>
+
+                    <div class="owner-direct-callout">
+                        <span class="owner-direct-label">Need Urgent Booking Assistance?</span>
+                        <div style="font-size: 0.88rem; color: var(--text-secondary); margin: 6px 0 12px;">Call restaurant owner directly for immediate reservations or banquet arrangements:</div>
+                        <a href="tel:03121786110" class="owner-direct-number">📞 03121786110</a>
+                    </div>
+                </div>
+
+                <!-- Right: Booking Form -->
+                <div class="booking-card">
+                    <h3 style="font-size: 1.5rem; color: var(--gold-bright); margin-bottom: 8px;">Book Your Table Online</h3>
+                    <p style="font-size: 0.86rem; color: var(--text-secondary); margin-bottom: 24px;">Synchronized with Supabase and confirmed via WhatsApp.</p>
+
+                    <form id="tableReservationForm">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label class="form-label" for="guestName">Guest Name *</label>
+                                <input type="text" id="guestName" name="guestName" class="form-control" placeholder="e.g. Dr. Farhan Memon" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="guestPhone">WhatsApp / Mobile Number *</label>
+                                <input type="tel" id="guestPhone" name="guestPhone" class="form-control" placeholder="0312-XXXXXXX" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="reservationDate">Reservation Date *</label>
+                                <input type="date" id="reservationDate" name="reservationDate" class="form-control" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="reservationTime">Reservation Time *</label>
+                                <input type="time" id="reservationTime" name="reservationTime" class="form-control" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="numberOfGuests">Number of Diners *</label>
+                                <select id="numberOfGuests" name="numberOfGuests" class="form-select" required>
+                                    <option value="2">2 Persons</option>
+                                    <option value="4" selected>4 Persons (Family)</option>
+                                    <option value="6">6 Persons</option>
+                                    <option value="8">8 Persons</option>
+                                    <option value="12">12 Persons</option>
+                                    <option value="20">20+ Persons (Large Dawat)</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="seatingArea">Seating Preference *</label>
+                                <select id="seatingArea" name="seatingArea" class="form-select" required>
+                                    <option value="ajrak_patio" selected>Outdoor Ajrak Patio (Traditional Charpai)</option>
+                                    <option value="heritage_hall">Indoor Heritage Family Hall</option>
+                                    <option value="ac_lounge">Executive AC Lounge</option>
+                                    <option value="rooftop">Open-Air BBQ Terrace</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group form-grid-full">
+                                <label class="form-label" for="occasion">Dining Occasion</label>
+                                <select id="occasion" name="occasion" class="form-select">
+                                    <option value="Family Dinner" selected>Family Dinner</option>
+                                    <option value="Highway Traveler Meal">Highway Transit / M-5 Traveler Meal</option>
+                                    <option value="Birthday Party">Birthday / Anniversary Celebration</option>
+                                    <option value="Business Dinner">Business / Official Meeting</option>
+                                    <option value="Friends Gathering">Friends BBQ Reunion</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group form-grid-full">
+                                <label class="form-label" for="specialRequests">Special Kitchen Requests / Pre-orders</label>
+                                <textarea id="specialRequests" name="specialRequests" class="form-control" placeholder="e.g. Please pre-prepare 1 Indus Palla fish and mutton karahi so we can dine without waiting..."></textarea>
+                            </div>
+                        </div>
+
+                        <div style="margin-top: 28px;">
+                            <button type="submit" class="btn btn-gold btn-block btn-lg">
+                                <span>Confirm Reservation & Notify Owner</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px;">
+                        <img src="assets/brand/sindhri-logo-gold.jpg" alt="Sindhri Logo" style="width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--gold-primary);">
+                        <span class="footer-brand-title">Sindhri Restaurant</span>
+                    </div>
+                    <p class="footer-desc">
+                        A historic culinary institution in Sukkur, Sindh. Renowned for Indus River Palla Machli, traditional charcoal barbecue, and pure Sindhi warmth.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="footer-heading">Navigation</h3>
+                    <ul class="footer-links-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Digital Menu</a></li>
+                        <li><a href="reservation.html">VIP Table Booking</a></li>
+                        <li><a href="gallery.html">Modern Ambience</a></li>
+                        <li><a href="contact.html">Contact & Owner</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer-heading">Dining Hours</h3>
+                    <ul class="footer-links-list" style="font-size: 0.88rem; color: var(--text-secondary);">
+                        <li><strong>Monday – Sunday:</strong><br>12:00 PM – 02:00 AM</li>
+                        <li><strong>Live Charcoal BBQ:</strong><br>06:00 PM – 02:00 AM</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer-heading">Owner Contact</h3>
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">📍</span>
+                        <span>Shikarpur Road, Sukkur, Sindh</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">📞</span>
+                        <span>Owner Phone: <a href="tel:03121786110" style="color: var(--gold-bright); font-weight: 700;">03121786110</a></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div>© 2026 Sindhri Restaurant Sukkur. All Rights Reserved.</div>
+                <div>Owner Phone: <a href="tel:03121786110" style="color: var(--gold-light);">03121786110</a></div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- RESERVATION SUCCESS MODAL -->
+    <div class="modal-backdrop" id="reservationSuccessModal">
+        <div class="modal-box" style="text-align: center;">
+            <div style="font-size: 3.5rem; margin-bottom: 14px;">👑</div>
+            <h3 style="color: var(--gold-bright); font-size: 1.5rem; margin-bottom: 8px;">VIP Reservation Confirmed!</h3>
+            <p style="color: var(--text-secondary); font-size: 0.92rem; margin-bottom: 20px;">
+                We have saved your table reservation to Supabase. You can also send a direct confirmation to the owner.
+            </p>
+
+            <div style="background: var(--bg-dark-card); border: 1px solid var(--gold-border); border-radius: var(--radius-md); padding: 18px; margin-bottom: 24px; text-align: left;">
+                <div style="display: flex; justify-content: space-between; margin-bottom: 6px; font-size: 0.9rem;">
+                    <span style="color: var(--text-secondary);">Booking Code:</span>
+                    <strong id="resSuccessCode" style="color: var(--gold-bright);">#RES-00000</strong>
+                </div>
+                <div style="display: flex; justify-content: space-between; margin-bottom: 6px; font-size: 0.9rem;">
+                    <span style="color: var(--text-secondary);">Guest & Count:</span>
+                    <strong id="resSuccessGuest" style="color: #fff;">-</strong>
+                </div>
+                <div style="display: flex; justify-content: space-between; font-size: 0.9rem;">
+                    <span style="color: var(--text-secondary);">Date & Time:</span>
+                    <strong id="resSuccessTime" style="color: var(--gold-bright);">-</strong>
+                </div>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 12px;">
+                <a id="resSuccessWaBtn" href="#" target="_blank" class="btn btn-whatsapp btn-lg btn-block">
+                    <span>Send WhatsApp Confirmation to Owner (03121786110)</span>
+                </a>
+                <button type="button" class="btn btn-outline-gold modal-close-trigger btn-block">
+                    <span>Done</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- QUICK FLOAT BUTTONS -->
+    <aside class="floating-quick-bar">
+        <a href="https://wa.me/923121786110" target="_blank" class="float-action-btn whatsapp-float" title="WhatsApp Owner">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 2C6.495 2 2 6.495 2 12.031c0 1.947.562 3.847 1.624 5.485L2 22l4.636-1.579a9.98 9.98 0 0 0 5.395 1.579c5.536 0 10.031-4.495 10.031-10.031S17.567 2 12.031 2zm5.795 14.282c-.244.685-1.42 1.341-1.956 1.397-.536.056-1.215.084-3.567-.849-2.92-1.159-4.81-4.144-4.956-4.34-.146-.195-1.184-1.579-1.184-3.007 0-1.428.751-2.132 1.019-2.423.268-.291.585-.365.78-.365.195 0 .39.002.56.01.18.008.423-.068.66.502.244.585.83 2.022.903 2.168.073.146.122.317.024.512-.098.195-.146.317-.293.488-.146.17-.308.38-.439.512-.146.146-.298.307-.128.599.17.292.756 1.248 1.622 2.019 1.116.993 2.057 1.3 2.349 1.446.292.146.463.122.634-.073.17-.195.731-.853.926-1.146.195-.292.39-.244.658-.146.268.098 1.706.804 2 .95.293.146.488.219.56.341.073.122.073.707-.171 1.392z"/></svg>
+        </a>
+        <a href="tel:03121786110" class="float-action-btn call-float" title="Call Owner">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        </a>
+    </aside>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/config.js"></script>
+    <script src="js/supabase-client.js"></script>
+    <script src="js/menu-data.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
